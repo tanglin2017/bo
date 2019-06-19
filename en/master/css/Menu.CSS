@@ -1,0 +1,65 @@
+﻿body, div, ul, li, span, a {
+    margin: 0;
+    padding: 0;
+}
+ul, li {
+    list-style: none outside none;
+    margin-left: 10px;
+}
+
+html { 	
+	SCROLLBAR-FACE-COLOR: #65A8E5; 
+	SCROLLBAR-HIGHLIGHT-COLOR: #65A8E5; 
+	SCROLLBAR-SHADOW-COLOR: #BDD6EE; 
+	SCROLLBAR-3DLIGHT-COLOR: #ffffff; 
+	SCROLLBAR-ARROW-COLOR: #ffffff; 
+	SCROLLBAR-TRACK-COLOR:#BDD6EE; 
+	SCROLLBAR-DARKSHADOW-COLOR: #65A8E5;
+}
+body {
+    background-attachment: fixed;
+    background-color: #FBFBFB;
+    background-image: url("../images/aa_left2.gif");
+    background-position: left top;
+    background-repeat: repeat-x;
+	font-size:12px;
+	font-family: "宋体";
+}
+.mainbox {
+    background-repeat: repeat-y;
+    margin: 0 auto;
+    width: 181px;
+}
+.main {
+    padding-top: 10px;
+	padding-bottom:20px;
+    width: 170px;
+}
+.mainbox div ul span {
+    background-image: url("../images/title_bg_hide.gif");
+    background-repeat: no-repeat;
+    width: 153px;
+    height: 25px;
+    display: block;
+    padding-left: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #494949;
+    line-height: 2em;
+	cursor: pointer;
+}
+a {
+    color: #000000;
+    font-size: 12px;
+    text-decoration: none;
+}
+.childs {
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    width: 156px;
+	padding:5px 0;
+}
+.childs li {
+    line-height: 2em;
+}
